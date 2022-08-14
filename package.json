@@ -1,0 +1,21 @@
+{
+  "name": "monaco-graphql-lang-bundles",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "graphql": "^16.5.0",
+    "monaco-editor": "^0.34.0",
+    "monaco-graphql": "^1.1.2",
+    "rollup-plugin-visualizer": "^5.7.1"
+  }
+}
